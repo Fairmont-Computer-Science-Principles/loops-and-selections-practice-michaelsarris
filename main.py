@@ -12,6 +12,16 @@
 #Students need to use a selection statement and 2 loops in order to complete this activity. 
 #Students will receive basic python code and they will piece together the solution. If a student cannot complete this activity they should provide pseudocode of what they imagine the solution to be. 
 #--------write your code below ----- #
+num=0
+stars="**"
+
+for i in range(10):
+    if(i<5):
+        num+=1
+        print(stars*num)
+    else:
+        num-=1
+        print(stars*num)
 
 
 Step 1: declare num  0, stars  “**”
